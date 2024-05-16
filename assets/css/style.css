@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.container{
+    width: 375px;
+    background-color: #fff;
+}
+.cabeca{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.cabeca .box-left img{
+    width: 10rem;
+}
+.corpo{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.corpo .pg1,
+.corpo .pg2{
+    align-items: center;
+}
+.corpo .pg1 .caixacima,
+.corpo .pg2 .caixacima{
+    width: 30rem;
+}
+.corpo .pg1 .caixacima img,
+.corpo .pg2 .caixacima img{
+    width: 375px;
+    height: 19rem;
+}
+.corpo .pg1 .caixinha{
+    text-align: center;
+}
+.pg1 .caixinha p{
+    color: #767676;
+}
+.pg1 .caixinha .botao button,
+.pg5 .botao button{
+    width: 10rem;
+    height: 2.5rem;
+    background-color: #69B99D;
+    color: #fff;
+    margin-top: 1rem;
+    border: none;
+}
+.corpo .pg2 .caixa{
+    margin-top: 4rem;
+}
+.pg2 .caixinha h2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+.pg2 .caixinha p{
+    color: #767676;
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
+.pg3{
+    margin-top: 6rem;
+    margin-left: 1rem;
+    justify-content: center;
+}
+.pg3 h2{
+    margin-bottom: 2rem;
+}
+.pg3 p span{
+    color: #69B99D;
+}
+.pg3 .row .col,
+.pg4 .row .col {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    align-items: flex-end;
+    justify-content: center;
+    border: 0.01rem solid #fff;
+    padding: 4rem 3rem;
+    text-align: center;
+}
+.pg3 .row .col p{
+    color: #767676;
+}
+.pg4{
+    margin-top: 6rem;
+    justify-content: center;
+    background-color: #fff;
+}
+.pg4 .row .col p span{
+    color: #69B99D;
+}
+.pg4 h2{
+    margin-left: 2rem;
+    margin-top: 4rem;
+}
+.pg4 .row .col .nome p{
+    margin-top: 1rem;
+    color: #767676;
+}
+.pg5{
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.pg5 p{
+    color: #767676;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.pg5 .botao button img{
+    width: 2rem;
+}
+.pg6{
+    background-color: #69B99D;
+}
+.pg6 p{
+    color: #fff;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.pg6 .logo img{
+    width: 10rem;
+}
+.pg6 .redes img{
+    width: 1rem;
+}
